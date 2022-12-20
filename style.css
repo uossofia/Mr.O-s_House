@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color:  rgb(240, 228, 217);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(33, 33, 33);
+}
+
+a:visited {
+    color: rgb(33, 33, 33);
+}
+
+a:hover {
+    color: rgb(146, 97, 97);
+}
+
+.Top {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+ align-items: center;
+ background-color: white;
+ padding: 8px 30px;
+ padding-top: 30px;
+}
+
+.logo img {
+    display: block;
+    align-self: center;
+    size:100%;
+}
+
+.GNB {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.GNB li {
+    padding: 8px 20px;
+}
+
+.GNB li:hover {
+    background-color: gray;
+}
+
+.ban1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ban1 img{
+    size: 1fr;
+}
+
+.ban2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 160px;
+    font-size: 30px;
+}
+
+.ban2 p{
+    margin: 5px;
+}
+
+#me {
+    margin: 45px;
+    font-size: 45px;
+}
+
+#mee {
+    margin-top: 45px;
+    font-size: 45px;
+}
+
+#meee {
+    margin: 0px;
+    font-size: 45px;
+}
+
+.ban3 {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    justify-content: center;
+   }
+
+
+.ban3txt{
+    margin: 80px;
+}
+
+#w1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#w2 {
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 40px;
+    text-decoration: solid;
+}
+
+.ban4 {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    justify-content: center;
+   }
+
+
+.ban4txt{
+    margin: 80px;
+}
+
+.ban5 {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    justify-content: center;
+   }
+
+
+.ban5txt{
+    margin: 80px;
+}
+
